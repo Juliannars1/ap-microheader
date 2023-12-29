@@ -1,0 +1,82 @@
+.contenedor-formularios {
+  background: rgba(#13232f, 0.9);
+  padding: 40px;
+  max-width: 600px;
+  margin: 40px auto;
+  border-radius: 4px;
+  box-shadow: 0 4px 10px 4px rgba(#13232f, 0.3);
+}
+h1 {
+  text-align: center;
+  color: #fff;
+  font-weight: 300;
+  margin: 0 0 40px;
+}
+
+.req {
+  margin: 2px;
+  color: #1ab188;
+}
+.contenedor-input {
+  position: relative;
+  margin-bottom: 40px;
+}
+.button {
+  border: 0;
+  outline: none;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 15px 0;
+  font-size: 2rem;
+  background: #1ab188;
+  color: #fff;
+  transition: all 0.5s ease;
+  appearance: none;
+}
+.button:hover {
+  background: #97e9d3;
+}
+.button:focus {
+  background: #97e9d3;
+}
+.button-block {
+  display: block;
+  width: 100%;
+}
+.forgot {
+  margin-top: -20px;
+  text-align: right;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  position: relative;
+  margin-bottom: 40px;
+}
+
+.input-field {
+  width: 100%;
+  padding: 5px 10px;
+  border: 1px solid #a0b3b0;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-radius: 5px;
+  font-size: 16px;
+}
+.input-field:focus {
+  outline: none;
+  border-color: #1ab188;
+}
+.label {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  transition: top 0.2s, font-size 0.2s;
+}
+
+.input-field:focus + .label,
+.input-field:valid + .label {
+  top: -10px;
+  font-size: 12px;
+}

@@ -1,0 +1,17 @@
+<button
+  [matMenuTriggerFor]="menu"
+  mat-icon-button
+  class="app-icon"
+  aria-label="icon-button with heart icon"
+>
+  <mat-icon>apps</mat-icon>
+</button>
+<mat-menu #menu="matMenu">
+  <div *ngFor="let itemapp of aplicationMenu">
+    <span>{{ itemapp.category }}</span>
+    <button mat-menu-item *ngFor="let apps of itemapp.apps">
+      <mat-icon>{{ apps.icon }}</mat-icon>
+      <span>{{ apps.name }}</span>
+    </button>
+  </div>
+</mat-menu>

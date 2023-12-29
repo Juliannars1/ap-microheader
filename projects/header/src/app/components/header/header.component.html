@@ -1,0 +1,26 @@
+<mat-toolbar color="primary" class="mat-elevation-z8">
+  <span>SJR</span>
+  <span class="spacer"></span>
+  <!-- menu button list -->
+  <app-application-menu></app-application-menu>
+
+  <button
+    *ngIf="isLoggedIn; else accessButton"
+    mat-icon-button
+    class="person-icon spacer-left"
+    aria-label="icon-button with share icon"
+  >
+    <mat-icon>person</mat-icon>
+  </button>
+
+  <!-- Botón de acceso para usuarios no autenticados -->
+  <ng-template #accessButton>
+    <button
+      mat-flat-button
+      color="primary"
+      class="mat-elevation-z8 spacer-left"
+    >
+      Acceder
+    </button>
+  </ng-template>
+</mat-toolbar>

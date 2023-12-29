@@ -1,0 +1,50 @@
+{
+  "appsByCategory": [
+    {
+      "category": "User",
+      "apps": [
+        {
+          "icon": "home",
+          "name": "Home"
+        },
+        {
+          "icon": "email",
+          "name": "Email"
+        },
+        {
+          "icon": "calendar_today",
+          "name": "Calendar"
+        }
+      ]
+    },
+    {
+      "category": "Tools",
+      "apps": [
+        {
+          "icon": "business",
+          "name": "Business"
+        },
+        {
+          "icon": "chat",
+          "name": "Chat"
+        },
+        {
+          "icon": "group",
+          "name": "Group"
+        },
+        {
+          "icon": "favorites",
+          "name": "Favorites"
+        },
+        {
+          "icon": "help",
+          "name": "Help"
+        },
+        {
+          "icon": "upload",
+          "name": "Upload"
+        }
+      ]
+    }
+  ]
+}
